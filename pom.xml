@@ -10,7 +10,7 @@
     <version>9</version>
   </parent>  
   
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
   
   <groupId>com.kasisoft</groupId>
   <artifactId>com.kasisoft.libs.parent-oss</artifactId>
