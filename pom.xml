@@ -96,8 +96,8 @@
           </configuration> 
           <executions>
             <execution>
-              <id>generate-manifest</id>
-              <phase>compile</phase>
+              <id>bundle-manifest</id>
+              <phase>process-classes</phase>
               <goals>
                 <goal>manifest</goal>
               </goals>
@@ -144,7 +144,7 @@
           <version>${plugin-version-maven-jar}</version>
           <configuration>
             <archive>
-              <addMavenDescriptor>false</addMavenDescriptor>
+              <manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
             </archive>
           </configuration>
         </plugin>
