@@ -7,16 +7,17 @@
     <groupId>org.sonatype.oss</groupId>
     <artifactId>oss-parent</artifactId>
     <version>9</version>
+    <relativePath></relativePath>
   </parent>  
   
   <packaging>pom</packaging>
   
   <groupId>com.kasisoft</groupId>
-  <artifactId>com.kasisoft.libs.parent-oss</artifactId>
+  <artifactId>com.kasisoft.pom.parent-oss</artifactId>
   <version>0.2-SNAPSHOT</version>
 
   <name>Kasisoft :: OSS Parent POM</name>
-  <url>https://kasisoft.com/bitbucket/projects/LIBS/repos/com.kasisoft.libs.parent-oss/browse</url>
+  <url>https://kasisoft.com/bitbucket/projects/POMS/repos/com.kasisoft.pom.parent-oss/browse</url>
   <description>Parent POM with OSS Parent.</description>
   
   <organization>
@@ -40,15 +41,15 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
     <!-- versioning: plugins -->
-    <plugin-version-maven-bundle>3.3.0</plugin-version-maven-bundle>
-    <plugin-version-maven-compiler>3.6.1</plugin-version-maven-compiler>
-    <plugin-version-maven-dependency-plugin>2.10</plugin-version-maven-dependency-plugin>
-    <plugin-version-maven-enforcer>1.4.1</plugin-version-maven-enforcer>
+    <plugin-version-maven-bundle>3.5.0</plugin-version-maven-bundle>
+    <plugin-version-maven-compiler>3.7.0</plugin-version-maven-compiler>
+    <plugin-version-maven-dependency-plugin>3.1.0</plugin-version-maven-dependency-plugin>
+    <plugin-version-maven-enforcer>3.0.0-M1</plugin-version-maven-enforcer>
     <plugin-version-maven-gpg>1.6</plugin-version-maven-gpg>
-    <plugin-version-maven-jar>3.0.2</plugin-version-maven-jar>
+    <plugin-version-maven-jar>3.1.0</plugin-version-maven-jar>
     <plugin-version-maven-release>2.5.3</plugin-version-maven-release>
     <plugin-version-maven-source>3.0.1</plugin-version-maven-source>
-    <plugin-version-maven-surefire>2.19.1</plugin-version-maven-surefire>
+    <plugin-version-maven-surefire>2.21.0</plugin-version-maven-surefire>
     <plugin-version-nexus-staging>1.6.8</plugin-version-nexus-staging>
     
     <maven.javadoc.failOnError>false</maven.javadoc.failOnError>
