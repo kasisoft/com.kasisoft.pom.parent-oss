@@ -26,7 +26,7 @@ Importing
     <parent>
         <groupId>com.kasisoft</groupId>
         <artifactId>com.kasisoft.pom.parent-oss</artifactId>
-        <version>0.2</version>
+        <version>0.3</version>
         <relativePath></relativePath>
     </parent>  
 
@@ -36,7 +36,7 @@ Importing
     <parent>
         <groupId>com.kasisoft</groupId>
         <artifactId>com.kasisoft.pom.parent-oss</artifactId>
-        <version>0.3-SNAPSHOT</version>
+        <version>0.4-SNAPSHOT</version>
         <relativePath></relativePath>
     </parent>  
 
