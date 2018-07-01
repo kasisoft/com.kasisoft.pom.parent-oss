@@ -14,7 +14,7 @@
   
   <groupId>com.kasisoft</groupId>
   <artifactId>com.kasisoft.pom.parent-oss</artifactId>
-  <version>0.3-SNAPSHOT</version>
+  <version>0.3</version>
 
   <name>Kasisoft :: OSS Parent POM</name>
   <url>https://kasisoft.com/bitbucket/projects/POMS/repos/com.kasisoft.pom.parent-oss/browse</url>
